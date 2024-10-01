@@ -1,7 +1,0 @@
-Lambda Function: A lambda function is an anonymous function defined with the lambda keyword. It can take any number of arguments but can only have one expression. For example, you can create a lambda function to add two numbers: add = lambda x, y: x + y. When you call add(5, 3), it returns 8.
-
-Map: The map() function applies a given function to all items in an iterable (like a list) and returns a map object (which is an iterator). For example, you can use map to square each number in a list: numbers = [1, 2, 3, 4], and the result of list(map(lambda x: x ** 2, numbers)) will be [1, 4, 9, 16].
-
-Reduce: The reduce() function from the functools module applies a rolling computation to sequential pairs of values in an iterable. For instance, if you have a list of numbers, numbers = [1, 2, 3, 4], you can find the product of these numbers using reduce(lambda x, y: x * y, numbers), which results in 24.
-
-Filter: The filter() function constructs an iterator from elements of an iterable for which a function returns true. For example, if you have a list of numbers, numbers = [1, 2, 3, 4, 5, 6], you can use filter to get even numbers: list(filter(lambda x: x % 2 == 0, numbers)) will yield [2, 4, 6]
