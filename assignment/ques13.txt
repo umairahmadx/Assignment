@@ -1,7 +1,0 @@
-Key Differences:
-
-Feature         List	            Tuple	    Set	                                    Dictionary
-Order	        Ordered	            Ordered	    Unordered	                            Unordered (insertion order in Python 3.7+)
-Mutability	    Mutable	            Immutable	Mutable (elements must be immutable)	Mutable
-Duplicates	    Allowed	            Allowed	    Not Allowed	                            Keys: Not Allowed, Values: Allowed
-Syntax	        [1, 2, 3]	        (1, 2, 3)	{1, 2, 3}	                            {'a': 1, 'b': 2}
