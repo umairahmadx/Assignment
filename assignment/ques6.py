@@ -1,8 +1,8 @@
-a = [1,2,3,5,8,6,9,4,13]
-largest=a[0]
-smallest=a[0]
+lst = [1,2,3,5,8,6,9,4,13,6]
+largest=lst[0]
+smallest=lst[0]
 
-for i in a:
+for i in lst:
     if i>largest:
         largest = i
     if i<smallest:
